@@ -1,0 +1,15 @@
+
+
+
+
+<div style="margin-left: 30px;">
+
+  <h1 style=""><%= @book.name %></h1>
+  <p style=""><%= @book.author.name %></P>
+  <div style="width: 25px;"> <%= image_tag(@book.image, options={ height: "300px"}) %> </div>
+
+
+
+  <%= link_to 'Back', :back %>
+  <%= link_to 'edit', edit_book_path(@book) %>
+</div>
