@@ -1,0 +1,17 @@
+
+
+
+
+<div style="margin-left: 30px;">
+
+  <h1>Stores</h1>
+  <% @store.each do |store| %>
+
+
+  <h4 style=""><%= link_to store.name, store %></h4>
+  <p style=""><%=  store.full_address %></p>
+
+
+  <% end %>
+
+</div>

@@ -21,6 +21,12 @@
     <%= form.text_field :image, id: :book_image %>
   </div>
 
+  <div class="field">
+    <%= form.label :rating %>
+    <%@ratings = [1,2,3,4,5] %>
+    <%= form.select :rating, @ratings %>
+  </div>
+
 
 
   <div class="actions">

@@ -1,0 +1,37 @@
+
+
+
+
+<div style="margin-left: 250px;">
+
+  <h3 style=""><%= @store.name %></h3>
+  <p style=""><%= @store.full_address %></P>
+  <div class="map">
+    <iframe
+      width="400"
+      height="300"
+      frameborder="0" style="border:0"
+      src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDj_s9_RjNkYvaOzvnxy2D7NUW3VnLhDBA
+        &q=<%= @store.full_address %>" allowfullscreen>
+    </iframe>
+  </div>
+  <div class="street_view">
+  <iframe
+    width="400"
+    height="300"
+    frameborder="0" style="border:0"
+    src="https://www.google.com/maps/embed/v1/streetview?key=AIzaSyDj_s9_RjNkYvaOzvnxy2D7NUW3VnLhDBA
+  &location=<%= @store.latitude %>,<%= @store.longitude %>
+  &heading=210
+  &pitch=10
+  &fov=35" allowfullscreen>
+  </iframe>
+  </div>
+
+
+
+
+  <%= link_to 'Back', stores_path %>
+  <%= link_to 'Edit', edit_store_path(@store) %>
+
+</div>

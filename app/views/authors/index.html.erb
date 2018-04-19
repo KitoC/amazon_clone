@@ -9,7 +9,7 @@
     <ul>
     <% author.books.each do |book| %>
 
-      <li style="color: red;"><%= book.name %></li>
+      <li style="color: red;"><%= link_to book.name, book_url(book.id) %></li>
     <% end %>
   </ul>
   <% end %>

@@ -1,0 +1,28 @@
+
+
+<%= render 'useraddress' %>
+
+<div style="margin-left: 30px;">
+
+  <h1>Stores</h1>
+  <p style="background:red;"><%= notice %></p>
+  <% if @nearest_me %>
+  <p> Your closest store is <%= link_to @nearest_me.name, store_url(@nearest_me.id) %> in <%= @nearest_me.city %></p>
+  <% end %>
+  <% @stores.each do |store| %>
+
+
+  <h5 style="margin-bottom: 0;"><%= link_to store.name, store %></h5>
+  <p style="margin-top: 0;"><%=  store.full_address %></p>
+
+
+
+
+  <% end %>
+
+
+
+
+
+</div>
+<p><%= link_to 'Back', :back %></p>

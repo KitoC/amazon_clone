@@ -1,0 +1,18 @@
+
+
+<div>
+
+
+
+  <div style="width: 25px;"> <%= image_tag(@author.image, options={ height: "200px"}) %> </div>
+  <p style="border-bottom: 1px solid lightgrey;"><%= @author.name %></P>
+    <ul>
+    <% @author.books.each do |book| %>
+
+      <li style="color: red;"><%= link_to book.name, book_url(book.id) %></li>
+    <% end %>
+  </ul>
+
+
+</div>
+<p><%= link_to 'Back', :back %></p>
