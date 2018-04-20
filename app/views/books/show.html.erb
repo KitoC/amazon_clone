@@ -5,7 +5,7 @@
 <div style="margin-left: 30px;">
   <div style="width: 25px;"> <%= image_tag(@book.image, options={ height: "200px"}) %> </div>
   <h1 style=""><%= @book.name %></h1>
-  <p style=""><%=  @book.author %></P>
+  <p style=""><%= link_to @book.author.name, author_url(@book.author.id) %></P>
       <p style="">Price :$<%= @book.price %></P>
     <%= link_to 'Edit', edit_book_path(@book) %>
     <%= link_to 'Back', books_path %>
