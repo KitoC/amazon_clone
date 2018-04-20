@@ -13,10 +13,10 @@ csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
 csv.each do |row|
   t = Book.new
   # MAKE SURE YOU PLACE THE ID HERE TOO
-  t.id = row['id']
+
   t.name = row['name']
   t.image = row['image']
-  t.author = row['author_id']
+  t.author = row['author']
   t.rating = row['rating']
   t.price = row['price']
   t.save
