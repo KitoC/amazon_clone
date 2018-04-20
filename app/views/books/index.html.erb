@@ -7,7 +7,7 @@
   <div style="width: 150px; height: 200px; margin: 10px;">
     <div style="height: 60%;"> <%= link_to (image_tag(book.image, options={ height: "100px"})), book %> </div>
     <h3 style="font-size: 1em; margin: 0; font-weight: bolder;"><%= link_to book.name, book %></h3>
-    <p style="font-size: 0.75em; margin: 0;"><%= link_to book.author.name, author_url(book.author.id) %></P>
+    <p style="font-size: 0.75em; margin: 0;"><%= book.author  %></P>
     <p style="font-size: 0.65em; margin: 0;">Ratings: <%= book.rating %></P>
     <p style="font-size: 0.60em; margin: 0; font-weight: bold;">Ratings: <%= book.price %></P>
   </div>

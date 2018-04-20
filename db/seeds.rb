@@ -13,7 +13,7 @@ csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
 csv.each do |row|
   t = Book.new
   # MAKE SURE YOU PLACE THE ID HERE TOO
-
+  t.id = row['id']
   t.author = row['author']
   t.image = row['image']
   t.name = row['name']
