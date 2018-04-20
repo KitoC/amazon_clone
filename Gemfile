@@ -9,7 +9,6 @@ gem 'dotenv-rails', groups: [:development, :test]
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.6'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
@@ -60,3 +59,6 @@ gem "geocoder", "~> 1.4"
 
 # Added at 2018-04-18 15:55:32 +1000 by Kitoc:
 gem "stripe", "~> 3.13"
+
+# Added at 2018-04-20 15:30:13 +1000 by Kitoc:
+gem "pg", "~> 1.0"
