@@ -14,9 +14,9 @@ csv.each do |row|
   t = Book.new
   # MAKE SURE YOU PLACE THE ID HERE TOO
 
-  t.name = row['name']
-  t.image = row['image']
   t.author = row['author']
+  t.image = row['image']
+  t.name = row['name']
   t.rating = row['rating']
   t.price = row['price']
   t.save
