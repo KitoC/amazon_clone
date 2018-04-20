@@ -16,10 +16,10 @@ csv.each do |row|
   t.id = row['id']
   t.name = row['name']
   t.image = row['image']
-  t.author_id = row['author_id']
+  t.author = row['author_id']
   t.rating = row['rating']
   t.price = row['price']
   t.save
-  
+
 end
 puts "There are now #{Book.count} rows in the transactions table"
