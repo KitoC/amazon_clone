@@ -8,17 +8,20 @@
 
 
 require 'csv'
-csv_text = File.read(Rails.root.join('lib', 'seeds', 'BOOKS.csv'))
+csv_text = File.read(Rails.root.join('lib', 'seeds', 'BOOKS2.csv'))
 csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
 csv.each do |row|
   t = Book.new
   # MAKE SURE YOU PLACE THE ID HERE TOO
   t.id = row['id']
-  t.author = Author.create({ name: row['author'] })
+
+  author_check = Author.where({ name: row['author'] })
+  t.author = author_check.empty? ? Author.create({ name: row['author'] }) : author_check.first
   t.image = row['image']
-  t.name = row['name']
+  t.title = row['title']
   t.rating = row['rating']
   t.price = row['price']
+  t.genre = row['genre']
   t.save
 
 end

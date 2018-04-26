@@ -1,0 +1,23 @@
+id,author,image,title,rating,price,genre
+1,Terry Pratchett,https://www.terrypratchettbooks.com/wp-content/uploads/2015/05/the_colour_of_magic1.jpg,The colour of magic,4,7.6,Comic|Fantasy
+2,Terry Pratchett,https://www.terrypratchettbooks.com/wp-content/uploads/2015/05/the_light_fantastic1.jpg,The light fantastic,4,13.18,Comic|Fantasy
+3,Terry Pratchett,https://www.terrypratchettbooks.com/wp-content/uploads/2015/05/equal_rites1.jpg,Equal rites,2,5.35,Comic|Fantasy
+4,Terry Pratchett,https://www.terrypratchettbooks.com/wp-content/uploads/2015/05/mort1.jpg,Mort,2,12.1,Comic|Fantasy
+5,Terry Pratchett,https://www.terrypratchettbooks.com/wp-content/uploads/2015/05/sourcery1.jpg,Sourcery,4,5.73,Comic|Fantasy
+6,Terry Pratchett,https://www.terrypratchettbooks.com/wp-content/uploads/2015/05/wyrd_sisters1.jpg,Wyrd sisters,3,22.84,Comic|Fantasy
+7,Terry Pratchett,https://www.terrypratchettbooks.com/wp-content/uploads/2015/05/pyramids1.jpg,Pyramids,1,5.43,Comic|Fantasy
+8,Terry Pratchett,https://www.terrypratchettbooks.com/wp-content/uploads/2015/05/guards_guards1.jpg,Guards! Guards!,1,10.24,Comic|Fantasy
+9,Terry Pratchett,https://www.terrypratchettbooks.com/wp-content/uploads/2015/05/eric1.jpg,Eric,3,25.52,Comic|Fantasy
+10,Terry Pratchett,https://www.terrypratchettbooks.com/wp-content/uploads/2015/05/moving_pictures1.jpg,Moving pictures,2,13.01,Comic|Fantasy
+11,Douglas Adams,https://images.gr-assets.com/books/1388282444s/386162.jpg,The hitch hikers giude to the galaxy,5,14.17,
+12,Douglas Adams,https://images.gr-assets.com/books/1404613595s/13.jpg,The ultimate hitch hikers guide to the galaxy,3,19.27,
+13,Douglas Adams,https://images.gr-assets.com/books/1521213881s/8695.jpg,The restaurant at the end of the universe,5,20.41,
+14,Douglas Adams,https://images.gr-assets.com/books/1333577589s/8694.jpg,"Life, the universe, everything",2,20.36,
+15,Douglas Adams,https://images.gr-assets.com/books/1327873354s/6091075.jpg,"So long, thanks for all the fish!",2,14.37,
+16,J.K.Rowlings,https://s2982.pcdn.co/wp-content/uploads/2014/08/HP_pb_new_1.jpg,Harry Potter and the Sorcerers Stone,4,9.53,
+17,J.K.Rowlings,https://s2982.pcdn.co/wp-content/uploads/2014/08/HP_pb_new_2.jpg,Harry Potter and the Chamber of Secrets,4,28.61,
+18,J.K.Rowlings,https://s2982.pcdn.co/wp-content/uploads/2014/08/HP_pb_new_3.jpeg,Harry Potter and the Prisoner of Azkaban,1,11.8,
+19,J.K.Rowlings,https://s2982.pcdn.co/wp-content/uploads/2014/08/HP_pb_new_4.jpg,Harry Potter and the Goblet of Fire,5,29.22,
+20,J.K.Rowlings,https://s2982.pcdn.co/wp-content/uploads/2014/08/HP_pb_new_5.jpg,Harry Potter and the Order of the Pheonix,5,20.5,
+21,J.K.Rowlings,https://s2982.pcdn.co/wp-content/uploads/2014/08/HP_pb_new_6.jpg,Harry Potter and the Half-blood Prince,3,8.05,
+22,J.K.Rowlings,https://s2982.pcdn.co/wp-content/uploads/2014/08/HP_pb_new_7.jpg,Harry Potter and the Deathly Hallows,5,17.85,

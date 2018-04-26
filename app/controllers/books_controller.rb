@@ -3,6 +3,10 @@ class BooksController < ApplicationController
 
   def index
     @books = Book.order('rating DESC').all
+
+    filter_params.each do |key, value|
+      @books = @books.public_send(key, value) if value.present?
+    end
   end
 
   def show
@@ -26,11 +30,15 @@ class BooksController < ApplicationController
   private
 
   def book_params
-    params.require(:book).permit(:name, :image, :rating)
+    params.require(:book).permit(:name, :image, :rating, :price, :genre, :author)
   end
 
   def set_book
     @book = Book.find(params[:id])
+  end
+
+  def filter_params
+    params.slice(:book_title, :book_author, :book_genre, :pricefrom, :priceto)
   end
 
 end
